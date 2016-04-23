@@ -1,15 +1,17 @@
 package pet;
 
 public class Pet {
+	
+	//猫狗共有属性
 	private String name ;
 	private String kind ;
 	private int age ;
 	
+	//猫狗共有方法（在各自的类(Pet的子类)中进行方法重写）
+	//猫狗饮食与叫声
 	public void eat() {
-		System.out.println("狂吃狂吃狂吃...");
 	}
 	public void bone() {
-		System.out.println("叫声叫声叫声....");
 	}
 	
 	//实现getter获取和setter实现  方法
